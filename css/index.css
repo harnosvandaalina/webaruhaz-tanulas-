@@ -65,7 +65,9 @@ nav li a:hover{
 
 article{
     grid-area: a;
+    display: grid;
     margin: auto;
+    
 }
 
 .kartyak{
@@ -73,11 +75,11 @@ article{
     grid-template-columns: 1fr 1fr 1fr ;
     gap: 40px;
     text-align: center;
-    
-    
 }
 
 .kartya{
+    display: grid;
+    grid-template-rows: 300px 1fr;
     max-width: 300px; 
     border: 5px solid black;
 }
@@ -87,9 +89,7 @@ article{
     object-fit: cover;
 }
 
-
-
-
 footer{
     grid-area: f;
+    text-align: center;
 }
